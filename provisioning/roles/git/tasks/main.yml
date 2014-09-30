@@ -1,0 +1,5 @@
+---
+- name: GIT | Install GIT
+  apt: pkg=git update-cache=yes
+  sudo: yes
+  tags: git
